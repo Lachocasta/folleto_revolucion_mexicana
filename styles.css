@@ -56,6 +56,13 @@ section.introduccion p {
     animation: fadeInUp 1.8s ease-out forwards;  /* Animación de entrada, más lenta para el párrafo */
     animation-delay: 0.5s;  /* Retrasa la animación del párrafo */
 }
+section.linea-tiempo p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    animation: fadeInUp 1.8s ease-out forwards;
+    animation-delay: 0.5s;
+}
 @keyframes fadeInUp {
     0% {
         opacity: 0;
